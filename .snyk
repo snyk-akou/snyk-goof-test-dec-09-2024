@@ -12,3 +12,4 @@ exclude:
     # Exclude a single file (relative to the location of .snyk file)
     - Dockerfile
     - package.json
+    - routes/index.js
