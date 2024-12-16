@@ -10,5 +10,5 @@ patch:
 exclude:
     global:
         # Exclude a single file. For example, - test.spec.js
-        - Dockerfile
-        - package.json
+        - snyk-akou/snyk-goof-test-dec-09-2024/Dockerfile
+        - snyk-akou/snyk-goof-test-dec-09-2024/package.json
