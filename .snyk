@@ -1,14 +1,14 @@
-# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+# Snyk (https://snyk.io) policy file
 version: v1.14.0
 ignore: {}
-# patches apply the minimum changes required to fix a vulnerability
+
 patch:
   'npm:http-signature:20150122':
     - tap > codecov.io > request > http-signature:
         patched: '2020-02-07T14:30:00.093Z'
 
 exclude:
-    global:
-        # Exclude a single file. For example, - test.spec.js
-        - snyk-akou/snyk-goof-test-dec-09-2024/Dockerfile
-        - snyk-akou/snyk-goof-test-dec-09-2024/package.json
+  global:
+    # Exclude a single file (relative to the location of .snyk file)
+    - Dockerfile
+    - package.json
