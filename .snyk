@@ -6,3 +6,9 @@ patch:
   'npm:http-signature:20150122':
     - tap > codecov.io > request > http-signature:
         patched: '2020-02-07T14:30:00.093Z'
+
+exclude:
+    global:
+        # Exclude a single file. For example, - test.spec.js
+        - Dockerfile
+        - package.json
