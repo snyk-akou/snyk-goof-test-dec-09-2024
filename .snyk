@@ -14,4 +14,4 @@ exclude:
     - package.json
     - routes/index.js
     - app.js
-   # - db.js
+    - db.js
