@@ -13,5 +13,5 @@ exclude:
     - Dockerfile
     - package.json
     - routes/index.js
-    - views/app.js
-    - views/db.js
+    - app.js
+    - db.js
